@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="Navbar">
+        <a href="#" class="logo">Portfolio</a>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#testimonial">Testimonials</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="btndownload"><a href="Neel-Flutter.pdf" download="Neel-Flutter.pdf">Download CV</a></button>
+    </nav>
+
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+
+    <!-- ------- Home ------- -->
+
+
+    <section id="home" class="home">
+        <div class="home-info">
+            <h4>Hi I am</h4>
+            <h1>Neel Savani</h1>
+            <h2>
+                <span style="--i:3;" data-text="Node JS Developer">Node JS Developer</span>
+                <span style="--i:4;" data-text="Flutter Developer">Flutter Developer</span>
+                <span style="--i:2;" data-text="Python Developer">Python Developer</span>
+                <span style="--i:1;" data-text="Laravel Developer">Laravel Developer</span>
+            </h2>
+            <h4 style="margin-top: 10px;">Building high-performance, scalable web and mobile applications.</h4>
+            <p>I'm a passionate developer with expertise in both front-end and back-end development, focusing on
+                delivering innovative and efficient solutions. With 4+ years of experience, I specialize in technologies
+                like Node.js, Flutter, Python, Laravel and more. My goal is to create seamless user experiences through
+                clean and scalable code.</p>
+            <div class="btn-sci">
+                <!-- <a href="#" class="btn">Download CV</a> -->
+                <div class="sci">
+                    <a href="https://github.com/neelsavani094" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/neel-savani-070164217/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://upwork.com/freelancers/~01824c1a6d5b5550ad?mp_source=share" target="_blank"><i
+                            class='bx bxl-upwork'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="person.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ------- About ------- -->
+
+
+    <section id="about" class="about-me">
+        <div class="about-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="person.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="about-info">
+            <h1>About Me</h1>
+            <p>As a dedicated software developer, I thrive on challenges that allow me to create solutions that make a
+                difference. I have experience across multiple industries, working on projects ranging from e-commerce to
+                fintech. Whether it's web development, mobile applications, or backend services, I deliver solutions
+                that are both functional and aesthetically pleasing.</p>
+            <div class="skills-bar">
+                <div class="bar">
+                    <div class="info">
+                        <span>UI/UX Design</span>
+                    </div>
+                    <div class="progress-line design"><span></span></div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <span>Digtal Marketing</span>
+                    </div>
+                    <div class="progress-line marketing"><span></span></div>
+                </div>
+
+
+                <div class="bar">
+                    <div class="info">
+                        <span>App Development</span>
+                    </div>
+                    <div class="progress-line app"><span></span></div>
+                </div>
+
+
+                <div class="bar">
+                    <div class="info">
+                        <span>Web Development</span>
+                    </div>
+                    <div class="progress-line web"><span></span></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ------- Service ------- -->
+
+
+    <section id="service" class="service-me">
+        <div class="service-info">
+            <h1>Services</h1>
+            <p>I specialize in creating custom, responsive websites and mobile apps using modern technologies like
+                Flutter. From intuitive UI/UX design to backend development and API integration, I deliver fast,
+                scalable, and secure digital solutions. I also offer ongoing maintenance, SEO optimization, and cloud
+                deployment to ensure your project’s long-term success.</p>
+            <div class="services-container">
+                <div class="service-box">
+                    <img src="service_icon_1.svg" alt="UI/UX">
+                    <h3>UI/UX Design Services</h3>
+                    <p>Focusing on user needs and preferences, our UI/UX design services enhance user satisfaction and
+                        engagement.</p>
+                </div>
+                <div class="service-box">
+                    <img src="service_icon_2.svg" alt="Web Design">
+                    <h3>Web Development</h3>
+                    <p>We provide top-notch web development services to create a robust infrastructure for your website.
+                    </p>
+                </div>
+                <div class="service-box">
+                    <img src="service_icon_3.png" alt="Seo Service">
+                    <h3>SEO Analytics Services</h3>
+                    <p>Boost your website's organic search traffic with our effective SEO services for businesses of all
+                        sizes.</p>
+                </div>
+                <div class="service-box">
+                    <img src="service_icon_4.png" alt="Mobile App Development">
+                    <h3>Mobile App Development</h3>
+                    <p>Get customized mobile app development services for Android, iOS, React Native, and Flutter
+                        platforms.</p>
+                </div>
+                <div class="service-box">
+                    <img src="service_icon_3.png" alt="Support & Maintenance">
+                    <h3>Support and Maintenance Services</h3>
+                    <p>We offer ongoing software updates and modifications to keep your product up-to-date and aligned
+                        with business needs.</p>
+                </div>
+                <div class="service-box">
+                    <img src="service_icon_4.png" alt="Custom Development">
+                    <h3>Custom Development Services</h3>
+                    <p>Our custom software development services cover the full lifecycle, from ideation to delivery and
+                        ongoing support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ------- Projects ------- -->
+
+
+    <section id="project" class="project-me">
+        <div class="project-info">
+            <h1>My Projects</h1>
+            <p>A showcase of my recent work, demonstrating my expertise in web and mobile development. Each project
+                highlights my ability to create user-centric, high-performance applications with clean code and modern
+                design. From e-commerce platforms to mobile apps, I focus on delivering scalable and efficient solutions
+                that meet client needs.</p>
+            <div class="filter-menu">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="uiux">UI/UX Design</button>
+                <button class="filter-btn" data-filter="web-design">Web Development</button>
+                <button class="filter-btn" data-filter="app-design">App Development</button>
+                <button class="filter-btn" data-filter="graphic-design">Digtal Marketing</button>
+            </div>
+
+            <div class="carousel-container">
+                <button class="prev-btn">&#10094;</button>
+                <div class="projects-container">
+                    <div class="project-item-box web-design">
+                        <div class="project-item web-design">
+                            <img src="aircalling.png" alt="AirCalling Landing Page Design">
+                        </div>
+                        <p>Web Development</p>
+                        <h3>AirCalling Website Development</h3>
+                    </div>
+
+                    <div class="project-item-box web-design">
+                        <div class="project-item web-design">
+                            <img src="business.png" alt="Business Landing Page Design">
+                        </div>
+                        <p>Web Development</p>
+                        <h3>Business Website Development</h3>
+                    </div>
+
+                    <div class="project-item-box web-design">
+                        <div class="project-item web-design">
+                            <img src="ecommrece.png" alt="Ecom Web Page Design">
+                        </div>
+                        <p>Web Development</p>
+                        <h3>Ecom Website Development</h3>
+                    </div>
+
+                    <div class="project-item-box uiux">
+                        <div class="project-item uiux">
+                            <img src="ui.png" alt="UI/UX Example">
+                        </div>
+                        <p>UI/UX Design</p>
+                        <h3>Dashboard Design</h3>
+                    </div>
+
+                    <div class="project-item-box app-design">
+                        <div class="project-item app-design">
+                            <img src="app.png" alt="App Design Example">
+                        </div>
+                        <p>App Development</p>
+                        <h3>App Development Project</h3>
+                    </div>
+
+                    <div class="project-item-box graphic-design">
+                        <div class="project-item graphic-design">
+                            <img src="ecommrece.png" alt="Graphic Design Example">
+                        </div>
+                        <p>Digtal Marketing</p>
+                        <h3>Digtal Marketing Project</h3>
+                    </div>
+
+                    <div class="project-item-box graphic-design">
+                        <div class="project-item graphic-design">
+                            <img src="business.png" alt="Graphic Design Example">
+                        </div>
+                        <p>Digtal Marketing</p>
+                        <h3>Digtal Marketing Project</h3>
+                    </div>
+                </div>
+                <button class="next-btn">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ------- Testimonials ------- -->
+
+
+    <section id="testimonial" class="testimonial-me">
+        <div class="testimonial-info">
+            <h1>Testimonials</h1>
+            <p>Working with Neel Savani was a transformative experience for our team. Their technical expertise and
+                innovative approach not only elevated our project but also made collaboration effortless. From crafting
+                elegant code to delivering user-friendly designs, Neel Savani consistently exceeds expectations. Our
+                website's functionality and aesthetics have significantly improved, thanks to their keen attention to
+                detail. I wholeheartedly recommend Neel Savani for any development project!</p>
+        </div>
+    </section>
+
+
+    <script>
+        document.querySelectorAll('ul li').forEach(function (item) {
+            item.addEventListener('click', function () {
+                // Remove active class from all items
+                console.log('working');
+                document.querySelectorAll('ul li').forEach(function (li) {
+                    li.classList.remove('active');
+                });
+
+                // Add active class to the clicked item
+                item.classList.add('active');
+            });
+        });
+
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectItems = document.querySelectorAll('.project-item-box');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                projectItems.forEach(item => {
+                    if (filter === 'all' || item.classList.contains(filter)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+
+        const projectsContainer = document.querySelector('.projects-container');
+        const prevBtn = document.querySelector('.prev-btn');
+        const nextBtn = document.querySelector('.next-btn');
+
+        let currentSlide = 0;
+        const totalSlides = document.querySelectorAll('.project-item-box').length;
+        const slideWidth = document.querySelector('.project-item-box').offsetWidth + 20; // width + margin
+
+        nextBtn.addEventListener('click', () => {
+            if (currentSlide < totalSlides - 3) { // Ensure there are enough items to scroll
+                currentSlide++;
+                projectsContainer.style.transform = `translateX(-${slideWidth * currentSlide}px)`;
+            }
+        });
+
+        prevBtn.addEventListener('click', () => {
+            if (currentSlide > 0) {
+                currentSlide--;
+                projectsContainer.style.transform = `translateX(-${slideWidth * currentSlide}px)`;
+            }
+        });
+    </script>
+
+</body>
+
+</html>
